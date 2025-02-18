@@ -11,7 +11,6 @@ const HomeLayout = () => {
             </main>
             <Footer />
         </div>
-
     )
 }
 

@@ -7,6 +7,7 @@ import OnePersonView from './views/OnePerson/OnePersonView'
 import OnePersonAdd from './views/OnePerson/OnePersonAdd'
 import OnePersonAddPractise from './views/OnePerson/OnePersonAddPractise'
 import OnePersonEdit from './views/OnePerson/OnePersonEdit'
+import ContactView from './views/ContactView'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='people/add' element={<OnePersonAdd />} />
             <Route path='people/edit/:id' element={<OnePersonEdit />} />
             <Route path='people/add-practise' element={<OnePersonAddPractise />} />
+            <Route path='contact' element={<ContactView />} />
           </Route>
         </Routes>
       </BrowserRouter>
